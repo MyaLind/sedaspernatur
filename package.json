@@ -1,0 +1,37 @@
+{
+  "name": "sedaspernatur",
+  "version": "1.0.0",
+  "description": "ESLint config for the idiomatic js style",
+  "keywords": [
+    "idiomatic",
+    "atque",
+    "eslintconfig",
+    "styleguide",
+    "style",
+    "qui"
+  ],
+  "main": "index.js",
+  "files": [
+    ".eslintrc*",
+    "LICENSE",
+    "*.js",
+    "lib/*"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "mocha -r ./test/support/support"
+  },
+  "author": "AdrianaGottlieb",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MyaLind/sedaspernatur.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "~2.11.0",
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
+  },
+  "homepage": "https://github.com/MyaLind/sedaspernatur.git"
+}
